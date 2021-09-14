@@ -1,0 +1,54 @@
+[package]
+name = "line_exercises"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nannou = "0.17"
+svg = "0.10"
+
+[[bin]]
+name = "dash-line"
+path = "src/dash_line.rs"
+
+[[bin]]
+name = "living-line"
+path = "src/living_line.rs"
+
+[[bin]]
+name = "living-line-1d"
+path = "src/living_line_1d.rs"
+
+[[bin]]
+name = "living-line-2d"
+path = "src/living_line_2d.rs"
+
+[[bin]]
+name = "spicy-line"
+path = "src/spicy_line.rs"
+
+[[bin]]
+name = "circle-one"
+path = "src/circle_one.rs"
+
+[[bin]]
+name = "circle-two"
+path = "src/circle_two.rs"
+
+[[bin]]
+name = "spiral"
+path = "src/spiral.rs"
+
+[[bin]]
+name = "parallel"
+path = "src/parallel.rs"
+
+[[bin]]
+name = "weights"
+path = "src/weights.rs"
+
+[[bin]]
+name = "calligraphic"
+path = "src/calligraphic.rs"

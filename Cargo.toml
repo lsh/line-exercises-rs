@@ -10,31 +10,31 @@ nannou = "0.17"
 svg = "0.10"
 
 [[bin]]
-name = "dash-line"
+name = "dash_line"
 path = "src/dash_line.rs"
 
 [[bin]]
-name = "living-line"
+name = "living_line"
 path = "src/living_line.rs"
 
 [[bin]]
-name = "living-line-1d"
+name = "living_line_1d"
 path = "src/living_line_1d.rs"
 
 [[bin]]
-name = "living-line-2d"
+name = "living_line_2d"
 path = "src/living_line_2d.rs"
 
 [[bin]]
-name = "spicy-line"
+name = "spicy_line"
 path = "src/spicy_line.rs"
 
 [[bin]]
-name = "circle-one"
+name = "circle_one"
 path = "src/circle_one.rs"
 
 [[bin]]
-name = "circle-two"
+name = "circle_two"
 path = "src/circle_two.rs"
 
 [[bin]]

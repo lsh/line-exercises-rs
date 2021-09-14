@@ -101,6 +101,9 @@ fn key_pressed(app: &App, model: &mut Model, _key: Key) {
         .set("stroke-width", 1)
         .set("d", data.close());
 
-    let document = Document::new().add(path).add(path2);
+    let document = Document::new()
+        .set("viewBox", (0, 0, 1000, (1000.0 * aspect) as i32))
+        .add(path)
+        .add(path2);
     svg::save("calligraphic.svg", &document).unwrap();
 }
